@@ -1,6 +1,6 @@
 {
-  "name": "@aiou/ts-lib-template",
-  "version": "0.3.4",
+  "name": "continue-chunk",
+  "version": "0.0.1",
   "description": "a starter for typescript lib",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
@@ -52,7 +52,6 @@
     "run_dev": "rimraf lib && ttsc",
     "dev": "npm-watch run_dev",
     "test": "jest",
-    "pretest": "npm run build",
     "update": "npm update && npm update --save-dev",
     "check": "npm outdated && npm outdated --save-dev",
     "prepublishOnly": "npm run build && np --no-cleanup --yolo --no-publish --any-branch"

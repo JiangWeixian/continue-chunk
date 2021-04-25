@@ -1,2 +1,2 @@
-declare const welcome: () => void;
-export default welcome;
+declare const chunk: (list: number[]) => number[][];
+export default chunk;

@@ -116,6 +116,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+# jest
+jest
+
 ### macOS.gitignore
 # General
 .DS_Store
