@@ -1,17 +1,16 @@
 {
   "name": "continue-chunk",
   "version": "0.0.1",
-  "description": "a starter for typescript lib",
+  "description": "chunk array",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "repository": {
-    "url": "https://github.com/JiangWeixian/templates/tree/master/packages/ts-lib-template"
+    "url": "https://github.com/JiangWeixian/continue-chunk"
   },
   "keywords": [
-    "typescript",
-    "lib",
-    "template",
-    "aiou"
+    "chunk",
+    "lodash",
+    "array"
   ],
   "watch": {
     "run_dev": {
@@ -58,6 +57,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
-  },
-  "gitHead": "6cbadaa431dafdef35d4ae70bb514ef99d2a8bc9"
+  }
 }

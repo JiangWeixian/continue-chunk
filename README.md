@@ -1,28 +1,22 @@
-# @aiou/ts-lib-template
-> typescript lib starter
+# continue-chunk
 
-[![npm](https://img.shields.io/npm/v/@aiou/ts-lib-template?style=for-the-badge)](https://github.com/JiangWeixian/templates/tree/master/packages/core) [![GitHub](https://img.shields.io/github/license/jiangweixian/templates?style=for-the-badge)](https://github.com/JiangWeixian/templates/tree/master/packages/ts-lib-template)
+[![npm](https://img.shields.io/npm/v/@aiou/continue-chunk)](https://github.com/JiangWeixian/continue-chunk) [![GitHub](https://img.shields.io/github/license/jiangweixian/templates)](https://github.com/JiangWeixian/continue-chunk)
 
-## notes
+## install
 
-- replace all `ts-lib-template` by real `package-name`
+```console
+npm install continue-chunk
+```
 
 ## features
 
-- support simple `react` examples
-- support watch mode in dev
+- `[1, 2, 3, 6, 7]` will chunk into `[[1, 2, 3], [6, 7]]`
 
-## get started
+## usage
 
-**develop**
+```ts
+import chunk from 'continue-chunk'
 
-```
-npm install
-npm run dev
-```
-
-**build**
-
-```
-npm run build
+chunk([1, 2, 3, 6, 7]) 
+// return [[1, 2, 3], [6, 7]]
 ```
