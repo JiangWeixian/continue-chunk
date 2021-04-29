@@ -1,6 +1,6 @@
 # continue-chunk
 
-[![npm](https://img.shields.io/npm/v/continue-chunk)](https://github.com/JiangWeixian/continue-chunk) [![GitHub](https://img.shields.io/github/license/jiangweixian/templates)](https://github.com/JiangWeixian/continue-chunk)
+[![npm](https://img.shields.io/npm/v/continue-chunk)](https://github.com/JiangWeixian/continue-chunk) [![GitHub](https://img.shields.io/github/license/jiangweixian/continue-chunk)](https://github.com/JiangWeixian/continue-chunk)
 
 ## install
 
